@@ -17,6 +17,11 @@ A beginner ladder logic project built on an Allen-Bradley SLC 500 using RSLogix 
 
 Deadband control, seal-in latching, TON timers.
 
+## Files
+
+- [Project1.pdf](docs/Project1.pdf) — original project specification and requirements
+- `docs/Project1.RSS` — RSLogix 500 project file (requires RSLogix 500 to open)
+
 ## Screenshots
 
 ![Main program](docs/LAD%202-%20Main.png)
