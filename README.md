@@ -7,4 +7,4 @@ and screenshots.
 
 | Project | Description | Link |
 |---------|-------------|------|
-| _First project coming soon._ |  |  |
+| Compressor Receiver Pressure Control | SLC 500 ladder logic project controlling receiver pressure in a 90–110 psi deadband | [View](compressor-receiver-pressure-control/) |
