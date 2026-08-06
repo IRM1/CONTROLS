@@ -6,12 +6,12 @@ A beginner ladder logic project built on an Allen-Bradley SLC 500 using RSLogix 
 
 ## I/O List
 
-| Address | Type   | Description              |
-|---------|--------|--------------------------|
-| I:0/0   | Input  | Low pressure switch (90 psi)  |
+| Address | Type   | Description                    |
+|---------|--------|--------------------------------|
+| I:0/0   | Input  | Low pressure switch (90 psi)   |
 | I:0/1   | Input  | High pressure switch (110 psi) |
-| O:0/0   | Output | Pump                     |
-| O:0/1   | Output | Run indicator light      |
+| O:0/0   | Output | Pump                           |
+| O:0/1   | Output | Run indicator light            |
 
 ## Concepts
 
@@ -19,4 +19,8 @@ Deadband control, seal-in latching, TON timers.
 
 ## Screenshots
 
-Ladder logic screenshots are in the [`docs/`](docs/) folder.
+![Main program](docs/LAD%202-%20Main.png)
+*Main program — pump/light control, timers, seal-in logic*
+
+![I/O subroutine](docs/LAD%203-%20I%3AO.png)
+*I/O subroutine — maps physical I/O to internal bits*
