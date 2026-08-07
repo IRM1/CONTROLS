@@ -22,14 +22,16 @@ A conveyor carries boxes with colored labels to a filling station. A proximity s
 
 The process is handled as a repeating cycle rather than a set of independent reactions:
 
-- The conveyor runs until a box arrives, then stops with the box in position for filling.
+- The conveyor runs whenever no box is in position. A one-shot off the proximity switch breaks that seal-in the instant a box arrives, stopping the conveyor with the box in place.
 - Rising-edge one-shots on each photo eye trigger the correct hopper **once per box**, which prevents the hopper from re-opening and overfilling while the same label sits in front of the eye.
-- Each hopper seals itself in while its label is present and drops out the moment the box is full.
-- The level switch drops both hoppers and restarts the conveyor to send the full box along.
-
-The most interesting piece is restarting the conveyor after a box is filled. Rather than a raw condition, a one-shot off the level switch re-energizes the motor, which then seals itself in — cleanly ending one cycle and letting the next box arrive.
+- Each hopper only energizes with the proximity switch still made — a label reading with no box in position can't dump product on the floor. Once triggered, the hopper seals itself in through its photo eye and drops out the moment the box is full.
+- A one-shot off the level switch drops both hoppers and re-energizes the conveyor motor, which then seals itself back in — cleanly ending one cycle and letting the next box arrive.
 
 **Assumption:** every box carries a red or blue label. An unlabeled box would stop at the station without filling.
+
+## Files
+
+- [Project2.pdf](docs/Project2.pdf) — original project specification and requirements
 
 ## Ladder Logic
 
