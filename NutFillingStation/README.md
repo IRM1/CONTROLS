@@ -32,6 +32,7 @@ The process is handled as a repeating cycle rather than a set of independent rea
 ## Files
 
 - [Project2.pdf](docs/Project2.pdf) — original project specification and requirements
+- `docs/Project2.RSS` — RSLogix 500 project file (requires RSLogix 500 to open)
 
 ## Ladder Logic
 
