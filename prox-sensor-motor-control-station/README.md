@@ -47,7 +47,14 @@ Reverse-engineered a PLC training station built on an Allen-Bradley CompactLogix
 Studio 5000, CompactLogix, RSLinx, ladder logic, NPN proximity sensor, panel documentation
 
 ## Screenshots
-No screenshots yet.
+![Ladder logic](assets/screenshot-1-ladder-logic.png)
+*Ladder logic program in Studio 5000*
+
+![Panel layout](assets/screenshot-2-panel-layout.png)
+*Panel layout*
+
+![Wiring diagram](assets/screenshot-3-wiring-diagram.png)
+*Wiring diagram*
 
 ## Status
 Complete
