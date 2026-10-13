@@ -42,7 +42,11 @@ With both improvements, a timeout or stop latches the red light first, the `syst
 Studio 5000, CompactLogix, RSLinx, ladder logic, TON timer
 
 ## Screenshots
-*Screenshots coming soon.*
+![Ladder logic](assets/screenshot-1-ladder-logic.png)
+*Four-rung ladder logic program in Studio 5000*
+
+![Lab station](assets/screenshot-2-plc-station.png)
+*Physical lab station: CompactLogix PLC, push buttons, E-Stop, pilot lights, and DC motor (red light latched after the timed run)*
 
 ## Status
 Complete
