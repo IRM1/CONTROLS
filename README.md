@@ -7,6 +7,7 @@ and screenshots.
 
 | Project | Description | Link |
 |---------|-------------|------|
+| CompactLogix Timed Motor Control | Studio 5000 ladder logic that runs a DC motor for 5 seconds with a TON timer, with Stop/E-Stop handling and a latched red fault light, tested on a physical lab station | [View](compactlogix-timed-motor-control/) |
 | Prox Sensor Motor Control Station | Reverse-engineered CompactLogix training station with an NPN proximity sensor, motor/light control logic, BOM, and panel documentation | [View](prox-sensor-motor-control-station/) |
 | CompactLogix 3-Wire Start/Stop | Tag-based ladder logic program on an Allen-Bradley CompactLogix PLC, downloaded to a physical lab station over EtherNet/IP with an interlocked start/stop and indicator light circuit | [View](compactlogix-3-wire-start-stop/) |
 | Nut Filling Station | RSLogix 500 conveyor project that routes labeled boxes to the correct hopper and manages the fill cycle | [View](NutFillingStation/) |
