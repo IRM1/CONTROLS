@@ -41,6 +41,9 @@ With both improvements, a timeout or stop latches the red light first, the `syst
 ## Tech / Tools
 Studio 5000, CompactLogix, RSLinx, ladder logic, TON timer
 
+## Files
+- [`docs/lab_5.ACD`](docs/lab_5.ACD) — Studio 5000 project file (requires Studio 5000 Logix Designer to open)
+
 ## Screenshots
 ![Ladder logic](assets/screenshot-1-ladder-logic.png)
 *Four-rung ladder logic program in Studio 5000*
