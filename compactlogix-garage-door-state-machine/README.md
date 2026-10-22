@@ -54,7 +54,14 @@ Tested on hardware: down and up travel with the correct lights, sensor reversal 
 Studio 5000, CompactLogix, RSLinx, ladder logic, ONS one-shot, TON timers, state machine design
 
 ## Screenshots
-*Screenshots coming soon.*
+![State transition diagram](assets/screenshot-1-state-diagram.png)
+*State transition diagram: Door Up, Moving Down, Door Down, and Moving Up, with sensor reversal during downward travel*
+
+![Ladder logic](assets/screenshot-2-ladder-logic.png)
+*Ten-rung ladder logic program in Studio 5000*
+
+![Lab station](assets/screenshot-3-plc-station.png)
+*Physical lab station: CompactLogix PLC, push buttons, pilot lights, and proximity sensor (red light on with the door stopped)*
 
 ## Status
 Complete
