@@ -56,6 +56,9 @@ The program downloaded with no errors. Tested on hardware:
 ## Tech / Tools
 Studio 5000, CompactLogix, RSLinx, ladder logic, TON timers, ONS one-shot, XOR toggle, EQU/GRT compare instructions, proximity sensor
 
+## Files
+- [`docs/lab8.ACD`](docs/lab8.ACD): Studio 5000 project file (requires Studio 5000 Logix Designer to open)
+
 ## Screenshots
 ![Timing diagram](assets/screenshot-1-timing-diagram.jpg)
 *Hand-drawn timing diagram: 9 s initialization, then alternating green, amber, and all-red phases for the right and left sides*
