@@ -44,6 +44,9 @@ The program downloaded with no errors. Tested on hardware:
 ## Tech / Tools
 Studio 5000, CompactLogix, RSLinx, ladder logic, ONS one-shot, TON timers, two-timer flasher
 
+## Files
+- [`docs/lab7.ACD`](docs/lab7.ACD): Studio 5000 project file (requires Studio 5000 Logix Designer to open)
+
 ## Screenshots
 ![Ladder logic](assets/screenshot-1-ladder-logic.png)
 *Eight-rung ladder logic program in Studio 5000*
