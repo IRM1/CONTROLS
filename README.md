@@ -7,6 +7,7 @@ and screenshots.
 
 | Project | Description | Link |
 |---------|-------------|------|
+| CompactLogix Traffic Light Controller | Studio 5000 two-direction traffic light with four chained TON timers, a one-shot/XOR direction toggle, and a proximity sensor that uses EQU/GRT compares to switch to amber early, tested on a physical lab station | [View](compactlogix-traffic-light-controller/) |
 | CompactLogix Conveyor Start/Stop with Auto Shutoff | Studio 5000 conveyor control with a one-button start/stop toggle, a 10-second TON automatic shutoff, a two-timer flashing light, and run/stop pilot lights, tested on a physical lab station | [View](compactlogix-conveyor-auto-shutoff/) |
 | CompactLogix Garage Door State Machine | Studio 5000 state machine for a garage door with one-button up/down control, TON travel timers, state pilot lights, and proximity-sensor safety reversal, tested on a physical lab station | [View](compactlogix-garage-door-state-machine/) |
 | CompactLogix Timed Motor Control | Studio 5000 ladder logic that runs a DC motor for 5 seconds with a TON timer, with Stop/E-Stop handling and a latched red fault light, tested on a physical lab station | [View](compactlogix-timed-motor-control/) |
