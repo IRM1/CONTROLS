@@ -60,8 +60,8 @@ Studio 5000, CompactLogix, RSLinx, ladder logic, TON timers, ONS one-shot, XOR t
 - [`docs/lab8.ACD`](docs/lab8.ACD): Studio 5000 project file (requires Studio 5000 Logix Designer to open)
 
 ## Screenshots
-![Timing diagram](assets/screenshot-1-timing-diagram.jpg)
-*Hand-drawn timing diagram: 9 s initialization, then alternating green, amber, and all-red phases for the right and left sides*
+![Timing diagram](assets/screenshot-1-timing-diagram.png)
+*Timing diagram: 9 s initialization with both reds, then alternating green, amber, and all-red phases for the right and left sides*
 
 ![Ladder logic, rungs 0–6](assets/screenshot-2-ladder-logic-rungs-0-6.png)
 *Rungs 0–6: Start/Stop seal-in, the four phase timers, sensor-bit reset, and right red light*
